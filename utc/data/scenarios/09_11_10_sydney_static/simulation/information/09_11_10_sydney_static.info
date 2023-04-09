@@ -1,0 +1,5 @@
+generate_scenario scenario_name="09_11_10_sydney_static" network_name="Sydney"
+exponential_flow from_junction_id="292" to_junction_id="248" start_time="0" end_time="3600" increase="1.15"
+exponential_flow from_junction_id="357" to_junction_id="248" start_time="0" end_time="3600" increase="1.45"
+exponential_flow from_junction_id="241" to_junction_id="316" start_time="0" end_time="3600" increase="1.25"
+save_scenario 

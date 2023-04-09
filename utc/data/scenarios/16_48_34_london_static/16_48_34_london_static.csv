@@ -1,0 +1,12 @@
+name,junctions,edges,length
+London,308,651,40933
+default_sg,207,393,22480
+flow_name,from,to,duration,per_minute,total
+uniform_flow,246,139,3600,14.1,845
+exponential_flow,243,68,3600,11.8,706
+exponential_flow,226,68,3600,16.3,978
+name,total_results,initial_results,problem_count
+16_48_34_london_static_default_planned,60,60,120
+name,routeLength,speed,duration,waitingTime,timeLoss,departDelay,departDelayWaiting,totalTravelTime,totalDepartDelay
+16_48_34_london_static,2147.39,2.44,2182.97,1655.38,1968.38,4814.16,-1.00,5520729.00,12175015.00
+default_planned_1,2229.92,2.27,2554.04,2023.19,2330.18,4444.47,-1.00,6459165.00,11240059.00

@@ -1,0 +1,13 @@
+name,junctions,edges,length
+Dejvice,95,184,15141
+default_sg,73,129,10439
+flow_name,from,to,duration,per_minute,total
+exponential_flow,83,70,3600,11.8,707
+exponential_flow,15,73,3600,16.3,977
+exponential_flow,69,81,3600,13.7,820
+uniform_flow,78,19,3600,12.6,757
+name,total_results,initial_results,problem_count
+16_08_20_dejvice_default_planned,120,120,120
+name,routeLength,speed,duration,waitingTime,timeLoss,departDelay,departDelayWaiting,totalTravelTime,totalDepartDelay
+16_08_20_dejvice,1300.79,2.62,1203.65,926.22,1095.85,5705.18,-1.00,3925118.00,18604584.00
+default_planned_1,1334.75,3.96,1134.62,900.63,1038.54,3972.81,-1.00,3700004.00,12955331.00

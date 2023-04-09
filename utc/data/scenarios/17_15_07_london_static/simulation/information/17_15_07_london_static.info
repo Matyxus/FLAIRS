@@ -1,0 +1,5 @@
+generate_scenario scenario_name="17_15_07_london_static" network_name="London"
+uniform_flow from_junction_id="227" to_junction_id="295" vehicle_count="906" start_time="0" end_time="3600" fluctuation="0.1"
+uniform_flow from_junction_id="246" to_junction_id="139" vehicle_count="1175" start_time="0" end_time="3600" fluctuation="0.15"
+uniform_flow from_junction_id="243" to_junction_id="68" vehicle_count="769" start_time="0" end_time="3600" fluctuation="0.1"
+save_scenario 

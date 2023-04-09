@@ -1,0 +1,12 @@
+name,junctions,edges,length
+Sydney,441,1061,106541
+default_sg,212,389,36394
+flow_name,from,to,duration,per_minute,total
+exponential_flow,241,316,3600,22.8,1367
+exponential_flow,87,358,3600,22.8,1368
+exponential_flow,357,248,3600,22.8,1369
+name,total_results,initial_results,problem_count
+12_41_16_sydney_static_default_planned,7,7,120
+name,routeLength,speed,duration,waitingTime,timeLoss,departDelay,departDelayWaiting,totalTravelTime,totalDepartDelay
+12_41_16_sydney_static,2728.39,3.09,1226.33,838.45,1052.29,2912.96,-1.00,5032857.00,11954808.00
+default_planned_1,2734.39,3.17,1193.92,808.69,1019.33,2761.25,-1.00,4899868.00,11332188.00

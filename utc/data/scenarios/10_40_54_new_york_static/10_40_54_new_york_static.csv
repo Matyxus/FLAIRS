@@ -1,0 +1,12 @@
+name,junctions,edges,length
+New_York,212,455,51820
+default_sg,149,329,31058
+flow_name,from,to,duration,per_minute,total
+uniform_flow,117,154,3600,13.4,802
+uniform_flow,127,117,3600,13.7,822
+exponential_flow,154,42,3600,16.3,977
+name,total_results,initial_results,problem_count
+10_40_54_new_york_static_default_planned,26,26,120
+name,routeLength,speed,duration,waitingTime,timeLoss,departDelay,departDelayWaiting,totalTravelTime,totalDepartDelay
+10_40_54_new_york_static,2520.18,0.85,4765.93,4024.58,4620.39,14763.87,-1.00,12396192.00,38400815.00
+default_planned_1,2539.44,1.07,4305.08,3641.25,4156.92,13269.14,-1.00,11197502.00,34513037.00

@@ -1,0 +1,5 @@
+generate_scenario scenario_name="20_17_24_sydney_static" network_name="Sydney"
+uniform_flow from_junction_id="357" to_junction_id="315" vehicle_count="1184" start_time="0" end_time="3600" fluctuation="0.2"
+uniform_flow from_junction_id="241" to_junction_id="316" vehicle_count="1117" start_time="0" end_time="3600" fluctuation="0.1"
+uniform_flow from_junction_id="292" to_junction_id="357" vehicle_count="1123" start_time="0" end_time="3600" fluctuation="0.05"
+save_scenario 

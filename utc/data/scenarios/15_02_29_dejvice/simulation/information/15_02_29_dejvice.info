@@ -1,0 +1,6 @@
+generate_scenario scenario_name="15_02_29_dejvice" network_name="Dejvice"
+exponential_flow from_junction_id="15" to_junction_id="73" start_time="0" end_time="3600" increase="1.05"
+uniform_flow from_junction_id="83" to_junction_id="70" vehicle_count="991" start_time="0" end_time="3600" fluctuation="0.2"
+exponential_flow from_junction_id="69" to_junction_id="81" start_time="0" end_time="3600" increase="1.45"
+uniform_flow from_junction_id="78" to_junction_id="19" vehicle_count="774" start_time="0" end_time="3600" fluctuation="0.2"
+save_scenario 

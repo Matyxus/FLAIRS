@@ -1,0 +1,5 @@
+generate_scenario scenario_name="15_08_11_london_static" network_name="London"
+exponential_flow from_junction_id="246" to_junction_id="139" start_time="0" end_time="3600" increase="1.35"
+uniform_flow from_junction_id="226" to_junction_id="68" vehicle_count="858" start_time="0" end_time="3600" fluctuation="0.1"
+uniform_flow from_junction_id="227" to_junction_id="295" vehicle_count="863" start_time="0" end_time="3600" fluctuation="0.1"
+save_scenario 

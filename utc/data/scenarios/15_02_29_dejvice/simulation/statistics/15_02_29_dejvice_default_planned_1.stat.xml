@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-01-09 15:15:12 by Eclipse SUMO sumo Version 1.12.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/svadlmat/UTC/utc/data/scenarios/15_02_29_dejvice/simulation/config/../../../../maps/sumo/Dejvice.net.xml"/>
+        <route-files value="/home/svadlmat/UTC/utc/data/scenarios/15_02_29_dejvice/simulation/config/../../routes/15_02_29_dejvice_default_planned_1.rou.xml"/>
+    </input>
+
+    <output>
+        <statistic-output value="/home/svadlmat/UTC/utc/data/scenarios/15_02_29_dejvice/simulation/statistics/15_02_29_dejvice_default_planned_1.stat.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="300000"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <vehicles loaded="3365" inserted="3365" running="0" waiting="0"/>
+    <teleports total="0" jam="0" yield="0" wrongLane="0"/>
+    <safety collisions="0" emergencyStops="0"/>
+    <persons loaded="0" running="0" jammed="0"/>
+    <vehicleTripStatistics routeLength="1347.23" speed="4.42" duration="1053.87" waitingTime="826.89" timeLoss="957.18" departDelay="3752.27" departDelayWaiting="-1.00" totalTravelTime="3546272.00" totalDepartDelay="12626386.00"/>
+    <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
+    <rideStatistics number="0"/>
+    <transportStatistics number="0"/>
+</statistics>
